@@ -1,0 +1,101 @@
+/**SELECTOR UNIVERSAL**/
+*{
+	margin: ;
+	padding: ;
+}
+a{
+	text-decoration: none;
+}
+
+body {
+	background:lightyellow;
+}
+
+body {
+	font-family: 'Roboto mono', monospace;
+	background-color: #FBF0DA;
+	font-size: 16px;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto mono', monospace;
+	color: lightcoral;
+	text-align: center;
+}
+
+.card img {
+	width: 70%;
+	justify-content: center;
+}
+
+.card {
+	text-align: center;
+
+}
+
+.card-img-top {
+	background-color: darkkhaki;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+
+/** HEADER **/
+header {
+	text-align: center;
+	padding: 20px 0 50px 0;
+}
+header img{
+	width:10%;
+	margin: 3%;
+}
+
+/** NAV **/
+nav{
+	background-color: darkkhaki;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	/**padding es hacia adentro**/
+	padding: 5px 0;
+}
+nav a {
+	color:lightyellow ;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+    /**margin es hacia afuera**/
+	margin: 10px;
+}
+
+nav a:hover {
+	color:hotpink;
+}
+
+
+/**FOOTER**/
+footer{
+	background-color: darkkhaki;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 5px 0;
+	margin-top:10px;
+}
+footer p {
+	color: lightyellow;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+
+}
+
+
+	
+
+
+
+
+
+
+
+
